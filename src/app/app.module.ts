@@ -17,7 +17,7 @@ import { ModalAboutComponent } from './modal-about/modal-about.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot()
+    NgbModule
   ],
   providers: [
     NgbActiveModal
