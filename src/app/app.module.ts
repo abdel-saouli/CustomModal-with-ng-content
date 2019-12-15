@@ -24,7 +24,7 @@ import { ModalAboutComponent } from './modal-about/modal-about.component';
   ],
   bootstrap: [AppComponent],
   entryComponents: [
-    ModalAboutComponent
+    ModalAboutComponent, ModalComponent
   ]
 })
 export class AppModule { }

@@ -14,8 +14,12 @@ export class AppComponent {
 
   constructor(private modalService: NgbModal) {}
 
-  open() {
+  openModalComponent() {
+    const modalRef = this.modalService.open(ModalComponent);
+    modalRef.componentInstance.title = 'A simple Modal';
+  }
+  openModalAboutComponent() {
     const modalRef = this.modalService.open(ModalAboutComponent);
-    modalRef.componentInstance.title = 'About';
+    modalRef.componentInstance.title = 'About Modal';
   }
 }
