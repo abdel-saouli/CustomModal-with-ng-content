@@ -16,11 +16,10 @@ export class AppComponent {
 
   openModalComponent() {
     const modalRef = this.modalService.open(ModalComponent);
-    //modalRef.componentInstance.title = 'A simple Modal';
+    modalRef.componentInstance.title = 'A simple Modal';
   }
   openModalAboutComponent() {
     const modalRef = this.modalService.open(ModalAboutComponent);
-    //modalRef.componentInstance.title = 'About Modal';
-    console.log("modal informations : ", modalRef.componentInstance)
+    modalRef.componentInstance.title = 'About Modal';
   }
 }
