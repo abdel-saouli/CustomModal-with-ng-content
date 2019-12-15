@@ -20,6 +20,5 @@ export class AppComponent {
   }
   openModalAboutComponent() {
     const modalRef = this.modalService.open(ModalAboutComponent);
-    console.log("modal informations : ", modalRef.componentInstance)
   }
 }
