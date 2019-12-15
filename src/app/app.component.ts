@@ -16,9 +16,10 @@ export class AppComponent {
 
   openModalComponent() {
     const modalRef = this.modalService.open(ModalComponent);
-    modalRef.componentInstance.title = 'A simple Modal';
+    modalRef.componentInstance.title = 'Title of Modal';
   }
   openModalAboutComponent() {
     const modalRef = this.modalService.open(ModalAboutComponent);
+    modalRef.componentInstance.title = 'Display About component with ng-content';
   }
 }

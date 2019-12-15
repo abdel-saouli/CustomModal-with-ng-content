@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}

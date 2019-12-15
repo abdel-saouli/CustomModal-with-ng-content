@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,Input,  OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-modal-about',
@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal-about.component.css']
 })
 export class ModalAboutComponent implements OnInit {
-
+   
+   @Input() title = `Information`;
+   
   constructor() { }
 
   ngOnInit() {
