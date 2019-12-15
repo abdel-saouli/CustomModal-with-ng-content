@@ -10,13 +10,12 @@ import { ModalAboutComponent } from './modal-about/modal-about.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'The test of Modal with ng-content';
 
   constructor(private modalService: NgbModal) {}
 
   open() {
-    // const modalRef = this.modalService.open(ModalComponent);
-    const modalRef = this.modalService.open(ModalComponent);
+    const modalRef = this.modalService.open(ModalAboutComponent);
     modalRef.componentInstance.title = 'About';
   }
 }
