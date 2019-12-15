@@ -1,3 +1,3 @@
-# github-15c968
+# Modal With ng-content 
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-15c968)
+Le but de ce repo est de créer une petite application qu’imprimante un composant modal avec la dirictive `ng-content` en Angular .
